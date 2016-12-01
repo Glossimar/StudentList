@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/lightBlue"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:layout_width="390dp"
+        android:layout_height="4dp"
+        android:background="@color/dark"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:id="@+id/id_num"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="姓名：A
+     年级：16级" />
+</FrameLayout>
